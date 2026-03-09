@@ -183,7 +183,7 @@ df.to_sql(dataset_name,conn,index=False,if_exists="replace")
 # -----------------------------
 # Gemini API
 # -----------------------------
-client = genai.Client(api_key="My-api-key-here")
+client = genai.Client(api_key="AIzaSyA6UegGtIROwdtt5dINxFLuOZAA_cSRHHM")
 
 # -----------------------------
 # Ask Question
@@ -358,4 +358,5 @@ Result:
         except Exception as e:
 
             st.error("SQL Execution Error")
+
             st.write(e)
